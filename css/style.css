@@ -1,0 +1,52 @@
+body { background: #9cb8b3; }
+
+h1 {
+    font: 600 1.5em/1 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    
+}
+h2 {
+    font: 30px Tahoma, Helvetica, Arial, Sans-Serif;
+    
+}
+
+span, span:after {
+    font-weight: 900;
+    color: #efedce;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    letter-spacing: .1em;
+    padding: .2em 0 .25em 0;
+}
+
+span {
+    font-size: 4em;
+    z-index: 100;
+    text-shadow: .04em .04em 0 #9cb8b3;
+}
+
+span:after {
+    content: attr(data-shadow-text);
+    color: rgba(0,0,0,.35);
+    text-shadow: none;
+    position: absolute;
+    left: .0875em;
+    top: .0875em;
+    z-index: -1;
+    
+}
+
+
+
+.btn-success{color:#fff;background-color:#5cb85c;border-color:#4cae4c}
+.btn-success.focus,.btn-success:focus{color:#fff;background-color:#449d44;border-color:#255625}
+.btn-success:hover{color:#fff;background-color:#449d44;border-color:#398439}
+.btn-success.active,.btn-success:active,.open>.dropdown-toggle.btn-success{color:#fff;background-color:#449d44;border-color:#398439}
+.btn-success.active.focus,.btn-success.active:focus,.btn-success.active:hover,.btn-success:active.focus,.btn-success:active:focus,.btn-success:active:hover,.open>.dropdown-toggle.btn-success.focus,.open>.dropdown-toggle.btn-success:focus,.open>.dropdown-toggle.btn-success:hover{color:#fff;background-color:#398439;border-color:#255625}
+.btn-success.active,.btn-success:active,.open>.dropdown-toggle.btn-success{background-image:none}
+.btn-success.disabled.focus,.btn-success.disabled:focus,.btn-success.disabled:hover,.btn-success[disabled].focus,.btn-success[disabled]:focus,.btn-success[disabled]:hover,fieldset[disabled] .btn-success.focus,fieldset[disabled] .btn-success:focus,fieldset[disabled] 
+.btn-success:hover{background-color:#5cb85c;border-color:#4cae4c}
+.btn-success .badge{color:#5cb85c;background-color:#fff}
